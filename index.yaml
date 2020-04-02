@@ -3,7 +3,16 @@ entries:
   stage1:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-02T15:15:52.5041377+02:00"
+    created: "2020-04-02T15:30:45.0202543+02:00"
+    description: A Helm chart for Kubernetes
+    digest: b1cb39e9bf4871ae7e1969fb8eb36e3f26cad69dd6051e81534de5fe98003f01
+    name: stage1
+    urls:
+    - stage1-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-02T15:30:45.0193627+02:00"
     description: A Helm chart for Kubernetes
     digest: 2bd488428e82eab4322fe1b9894434cd775433c7802e0be370939d26b09d5567
     name: stage1
@@ -12,11 +21,21 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-02T15:15:52.5031412+02:00"
+    created: "2020-04-02T15:30:45.0189187+02:00"
     description: A Helm chart for Kubernetes
     digest: 18212016e29ee92e12d0fc04a4c482f8d0ac5a44faabd7d06063c72a52ce41f0
     name: stage1
     urls:
     - stage1-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-02T15:15:52.5017195+02:00"
+  stage2:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-02T15:30:45.0210683+02:00"
+    description: A Helm chart for Kubernetes
+    digest: f32c7bcf3cbc3d8ba3ea6938f540700f22f17a03f75525a4b4d70ff5426f1184
+    name: stage2
+    urls:
+    - stage2-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-02T15:30:45.0181949+02:00"

@@ -3,7 +3,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: test-gitops-{{ $name }}
+  name: test-gitops-{{ $name }}-stage1
   namespace: argocd
 spec:
   project: {{ $cluster.name }}

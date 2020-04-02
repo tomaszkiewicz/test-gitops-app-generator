@@ -1,0 +1,14 @@
+{{- $cluster := $.Values.cluster -}}
+{{- range $name, $app := .Values.helmApplications }}
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: test-gitops-{{ $name }}-stage2
+  namespace: argocd
+spec:
+  project: {{ $cluster.name }}
+  source:
+{{ $app.content | nindent 6}}
+
+---
+{{- end }}
