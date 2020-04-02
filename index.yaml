@@ -3,7 +3,25 @@ entries:
   stage1:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-02T15:30:45.0202543+02:00"
+    created: "2020-04-02T15:34:01.7384199+02:00"
+    description: A Helm chart for Kubernetes
+    digest: b6e5fa9724b285933a88e786ab6596d4425c5d44cc8e3173976a439f3da8cffd
+    name: stage1
+    urls:
+    - stage1-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-02T15:34:01.7374274+02:00"
+    description: A Helm chart for Kubernetes
+    digest: d6b7ed5120e1b33f9a0a72d36caaab82a6c9294f62857546dfd496a701ecf9b8
+    name: stage1
+    urls:
+    - stage1-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-02T15:34:01.737043+02:00"
     description: A Helm chart for Kubernetes
     digest: b1cb39e9bf4871ae7e1969fb8eb36e3f26cad69dd6051e81534de5fe98003f01
     name: stage1
@@ -12,7 +30,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-02T15:30:45.0193627+02:00"
+    created: "2020-04-02T15:34:01.7366883+02:00"
     description: A Helm chart for Kubernetes
     digest: 2bd488428e82eab4322fe1b9894434cd775433c7802e0be370939d26b09d5567
     name: stage1
@@ -21,7 +39,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-02T15:30:45.0189187+02:00"
+    created: "2020-04-02T15:34:01.7362815+02:00"
     description: A Helm chart for Kubernetes
     digest: 18212016e29ee92e12d0fc04a4c482f8d0ac5a44faabd7d06063c72a52ce41f0
     name: stage1
@@ -31,11 +49,11 @@ entries:
   stage2:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-02T15:30:45.0210683+02:00"
+    created: "2020-04-02T15:34:01.7392632+02:00"
     description: A Helm chart for Kubernetes
-    digest: f32c7bcf3cbc3d8ba3ea6938f540700f22f17a03f75525a4b4d70ff5426f1184
+    digest: ecaf68de549feeb45c566b14f8b210e0a8bcc114a5d961e3d22fc6c9c92c9e00
     name: stage2
     urls:
     - stage2-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-02T15:30:45.0181949+02:00"
+generated: "2020-04-02T15:34:01.7356101+02:00"

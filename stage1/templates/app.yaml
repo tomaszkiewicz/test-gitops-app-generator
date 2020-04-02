@@ -15,7 +15,7 @@ spec:
       valueFiles:
       - ../../clusters/{{ $cluster.name }}/cluster.yaml
       fileParameters:
-      - name: stage1.helmApplications.{{ $name }}.content
-        path: $app.addonFile
+      - name: stage2.helmApplications.{{ $name }}.content
+        path: {{ $app.addonFile }}
 ---
 {{- end }}
