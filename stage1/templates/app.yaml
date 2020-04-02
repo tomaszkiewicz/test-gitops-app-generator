@@ -7,6 +7,9 @@ metadata:
   namespace: argocd
 spec:
   project: {{ $cluster.name }}
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: default
   source:
     repoURL: {{ $cluster.repo }}
     path: {{ $cluster.repoPathPrefix }}/stage2
