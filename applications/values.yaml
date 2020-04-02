@@ -1,0 +1,6 @@
+helmApplications:
+  # test:
+  #   content: xxxx
+  #   parameters:
+  #     one: "1"
+  #     two: "2"

@@ -1,0 +1,12 @@
+{{- range $name, $app := .Values.helmApplications }}
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: {{ $name }}
+  namespace: argocd
+spec:
+  project: {{ $.Values.cluster.name }}
+  source:
+{{ $app.content | nindent 4}}
+---
+{{- end }}
