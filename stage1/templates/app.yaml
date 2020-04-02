@@ -1,0 +1,21 @@
+{{- $cluster := $.Values.cluster -}}
+{{- range $name, $app := .Values.helmApplications }}
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: test-gitops-{{ $name }}
+  namespace: argocd
+spec:
+  project: {{ $cluster.name }}
+  source:
+    repoURL: {{ $cluster.repo }}
+    path: {{ $cluster.repoPathPrefix }}/stage2
+    helm:
+      releaseName: {{ $name }}-{{ $cluster.name }}
+      valueFiles:
+      - ../../clusters/{{ $cluster.name }}/cluster.yaml
+      fileParameters:
+      - name: helmApplications.{{ $name }}.content
+        path: $app.addonFile
+---
+{{- end }}
